@@ -1,0 +1,7 @@
+<!--
+ - Created by christianpelayo on 4/9/22.
+ -->
+
+<aura:event type="APPLICATION" description="AGMessageApplicationEvent">
+    <aura:attribute name="message" type="String"/>
+</aura:event>
