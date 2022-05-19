@@ -1,6 +1,9 @@
 <!--
- - Created by christianpelayo on 4/9/22.
- -->
+  @description       : Application Event for pub/sub in aura.
+  @author            : pelayochristian.dev@gmail.com
+  @last modified on  : 05-19-2022
+  @last modified by  : pelayochristian.dev@gmail.com
+-->
 
 <aura:event type="APPLICATION" description="AGMessageApplicationEvent">
     <aura:attribute name="message" type="String"/>

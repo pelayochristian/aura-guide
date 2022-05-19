@@ -1,23 +1,25 @@
 <!--
- - Created by christianpelayo on 4/9/22.
- -->
-
+  @description       : Component of the Child component as a publisher.
+  @author            : pelayochristian.dev@gmail.com
+  @last modified on  : 05-19-2022
+  @last modified by  : pelayochristian.dev@gmail.com
+-->
 <aura:component description="AGBasicChildSubscriber" implements="flexipage:availableForAllPageTypes">
     <!--    Attribute for the message from event-->
-    <aura:attribute name="messageFromEvent" type="String"/>
+    <aura:attribute name="messageFromEvent" type="String" />
     <!--    Add Handler for the message from event-->
-    <aura:handler event="c:AGMessageApplicationEvent" action="{!c.handleComponentEvent}"/>
+    <aura:handler event="c:AGMessageApplicationEvent" action="{!c.handleComponentEvent}" />
 
     <article class="slds-card">
         <div class="slds-card__header slds-grid">
             <header class="slds-media slds-media_center slds-has-flexi-truncate">
                 <div class="slds-media__figure">
-        <span class="slds-icon_container slds-icon-standard-account" title="account">
-<!--          <svg class="slds-icon slds-icon_small" aria-hidden="true">-->
-            <!--            <use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#account"></use>-->
-            <!--          </svg>-->
-          <span class="slds-assistive-text">account</span>
-        </span>
+                    <span class="slds-icon_container slds-icon-standard-account" title="account">
+                        <!--          <svg class="slds-icon slds-icon_small" aria-hidden="true">-->
+                        <!--            <use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#account"></use>-->
+                        <!--          </svg>-->
+                        <span class="slds-assistive-text">account</span>
+                    </span>
                 </div>
                 <div class="slds-media__body">
                     <h2 class="slds-card__header-title">
